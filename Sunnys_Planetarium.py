@@ -1,6 +1,6 @@
 print ("Welcome to Sunny's Planetarium!")
 
-name = input("Please enter your name: ")  # Added a colon at the end of the line
+name = input("Please enter your name: ") 
 print("Welcome, " + name + "! Let's test your planetary knowledge.")
 score = 0
 
@@ -11,7 +11,7 @@ if q1.lower() == "milky way":
 else:
     print("Incorrect. The correct answer is Milky Way.")
 
-q2 = input ("Which planet is closest  to the Sun?  ")
+q2 = input ("Which planet is closest to the Sun?  ")
 if q2.lower() == "mercury":
     print("That's correct. Well done.")
     score  +=1
@@ -54,7 +54,6 @@ elif score == 2:
     print("It's time for some revision.")
 
 else:("There's room for improvement.")
-
 
 
 
